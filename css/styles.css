@@ -710,8 +710,7 @@ img {
 .footer-subscribe-form {
   display: flex;
   flex-direction: column;
-  margin-right: 24px;
-
+ 
 }
 
 .footer-subscribe-title {
@@ -723,10 +722,20 @@ img {
   color: var(--white-background);
 }
 
-.subscribe-form {}
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+}
 
 .subscribe-label {
-  display: block;
+  display: flex;
   margin-bottom: 16px;
   
   font-weight: 500;
@@ -738,6 +747,7 @@ img {
 }
 
 .subscribe-form-field {
+  display: block;
   width: 264px;
   height: 40px;
 
@@ -751,13 +761,17 @@ img {
   border-radius: 4px;
 }
 
+
+
 .subscribe-btn {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
  
   width: 165px;
   height: 40px;
+
+  margin-top: 40px;
 
   color: var(--white-background);
   background-color: var(--primary-brand);
