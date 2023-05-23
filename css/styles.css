@@ -735,7 +735,7 @@ img {
 }
 
 .subscribe-label {
-  display: flex;
+  display: block;
   margin-bottom: 16px;
   
   font-weight: 500;
@@ -764,7 +764,7 @@ img {
 
 
 .subscribe-btn {
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
  
